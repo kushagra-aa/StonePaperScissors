@@ -6,7 +6,7 @@ picks = {
     'paper': 'paper.png',
     'scissors': 'scissors.png',
 }
-pickUrl = "../assets/icons/"
+pickUrl = "./assets/icons/"
 
 // FUNTIONS
 // set scores on load
