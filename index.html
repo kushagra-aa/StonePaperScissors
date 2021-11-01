@@ -17,13 +17,32 @@
 
 <body>
     <div class="container">
-        <div class="socreboard">
-            <div class="score"></div>
-            <div class="high-score"></div>
+        <div class="scoreboard">
+            <div class="score">score <span></span></div>
+            <div class="high-score">high score <span></span></div>
         </div>
-        <div class="btns"></div>
-        <div class="results"></div>
-        <button class="main reset">reset</button>
+        <div class="hands">
+            <div class="paper-con">
+                <img src="./assets/icons/paper.png" class="icon" alt="paper" onclick="pickhandUser('paper')">
+            </div>
+            <img src="./assets/icons/stone.png" class="icon stone" alt="stone" onclick="pickhandUser('stone')">
+            <img src="./assets/icons/scissors.png" class="icon scissors" alt="scissors"
+                onclick="pickhandUser('scissors')">
+        </div>
+        <div class="results">
+            <div class="result-in result-hand user-hand">
+                <h2>you picked</h2>
+                <img id="user-picked">
+            </div>
+            <div class="result-in result">
+                <h2></h2>
+                <button class="again main" onclick="again()">again</button>
+            </div>
+            <div class="result-in result-hand house-hand">
+                <h2>house picked</h2>
+                <img src="/assets/icons/scissors.png" id="house-picked" alt="scissors">
+            </div>
+        </div>
     </div>
     <footer>
         <a href="https://github.com/kushagra-aa?tab=repositories" target="_blank" class="center">Get the code here</a>
