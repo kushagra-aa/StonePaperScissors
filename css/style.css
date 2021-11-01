@@ -22,13 +22,13 @@ body {
 
 /* general css */
 .main {
-  padding: 15px;
+  padding: 0.94rem;
   background: none;
   border: 3px solid var(--neon);
   box-sizing: border-box;
   border-radius: 10px;
   color: var(--white);
-  font-size: 30px;
+  font-size: 1.875rem;
   text-transform: uppercase;
   cursor: pointer;
   text-align: center;
@@ -58,9 +58,9 @@ body {
   flex-direction: row;
   justify-content: space-around;
   align-items: center;
-  padding: 30px;
-  width: 666px;
-  height: 224px;
+  padding: 1.875rem;
+  width: 41.625rem;
+  height: 14rem;
   border: 3px solid var(--neon);
   box-sizing: border-box;
   border-radius: 20px;
@@ -68,8 +68,8 @@ body {
 
 .score,
 .high-score {
-  width: 243px;
-  height: 164px;
+  width: 15.188rem;
+  height: 10.25rem;
   flex-direction: column;
   display: flex;
   align-items: center;
@@ -78,12 +78,12 @@ body {
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25),
     inset 0px 4px 4px rgba(0, 0, 0, 0.25);
   border-radius: 20px;
-  font-size: 30px;
+  font-size: 1.875rem;
   text-transform: capitalize;
 }
 .score span,
 .high-score span {
-  font-size: 75px;
+  font-size: 4.688rem;
 }
 
 .high-score,
@@ -93,8 +93,8 @@ body {
 
 /* buttons styles */
 .hands {
-  width: 460px;
-  height: 340px;
+  width: 28.75rem;
+  height: 21.25rem;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -110,12 +110,12 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  width: 556px;
+  width: 34.75rem;
 }
 
 .icon {
-  width: 180px;
-  height: 180px;
+  width: 11.25rem;
+  height: 11.25rem;
   cursor: grab;
   transition: all 0.4s ease-in-out;
 }
@@ -142,8 +142,8 @@ body {
   /* display will be setted by js */
   display: none;
   padding: 3em;
-  width: 600px;
-  height: 340px;
+  width: 37.5rem;
+  height: 21.25rem;
   gap: 3rem;
 }
 
@@ -152,7 +152,7 @@ body {
   gap: 2em;
 }
 .result-in h2 {
-  font-size: 30px;
+  font-size: 1.875rem;
   color: var(--white);
   font-weight: 200;
   text-transform: capitalize;
@@ -160,12 +160,12 @@ body {
 
 .result h2 {
   text-align: center;
-  width: 200px;
-  font-size: 40px;
+  width: 12.5rem;
+  font-size: 2.5rem;
 }
 .result button {
-  width: 180px;
-  font-size: 35px;
+  width: 11.25rem;
+  font-size: 2.188rem;
 }
 
 /* styles for reset button */
