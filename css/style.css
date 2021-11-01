@@ -35,6 +35,12 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
+  transition: all 0.5s ease-in-out;
+}
+.main:hover {
+  background: var(--neon);
+  box-shadow: 0px 0px 15px 5px rgba(188, 19, 254, 0.35);
+  color: var(--black);
 }
 
 /* container css */
