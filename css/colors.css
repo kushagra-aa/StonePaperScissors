@@ -1,0 +1,19 @@
+:root {
+  --gr-bor: #3a3436;
+  --black: #17121e;
+  --white: rgb(236, 236, 236);
+  --accent: #fe4164;
+  --neon: #bc13fe;
+  /* footer background */
+  --foot: rgba(114, 45, 103, 0.5);
+  /* gradient for background */
+  --bg: radial-gradient(
+    80.18% 80.18% at 18.61% 19.82%,
+    #9c1e70 0%,
+    #3d2645 100%
+  );
+  /* gradient for buttons */
+  --stone-g: linear-gradient(180deg, #623684 0%, #38214a 100%);
+  --paper-g: linear-gradient(180deg, #ff444e 0%, #a5181f 100%);
+  --scissor-g: linear-gradient(180deg, #ffd35d 0%, #a48226 100%);
+}
