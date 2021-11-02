@@ -205,23 +205,53 @@ footer {
 
 /* mobile styles */
 @media only screen and (max-width: 655px) {
-  footer {
-    height: 5rem;
-    flex-direction: column;
+  .container {
+    max-width: 100vw;
+    height: 100vh;
   }
   .scoreboard {
-    width: 31rem;
-    height: 14rem;
+    margin-top: 2em;
+    width: 23rem;
+    height: 10rem;
+    gap: 1em;
   }
   .score,
   .high-score {
-    width: 12rem;
-    height: 9rem;
+    width: 10rem;
+    height: 8rem;
+    font-size: 1.5rem;
+  }
+  .score span,
+  .high-score span {
+    font-size: 4rem;
+  }
+  .hands {
+    width: 20rem;
+    height: 20rem;
+    background-position: 6.5rem 8rem;
+    background-size: 50%;
+    gap: 2rem;
+  }
+  .icon {
+    width: 6rem;
+    height: 6rem;
   }
   .results {
     flex-direction: column;
-    gap: 0.5em;
+    gap: 1em;
     height: 45rem;
-    width: 30rem;
+    width: 15rem;
+  }
+  .picked {
+    width: 9rem;
+    height: 9rem;
+  }
+  footer {
+    height: 5rem;
+    flex-direction: column;
+    gap: 1em;
+  }
+  .right {
+    position: initial;
   }
 }
